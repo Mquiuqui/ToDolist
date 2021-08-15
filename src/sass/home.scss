@@ -1,0 +1,136 @@
+
+input{
+    padding: 10px;
+}
+.tela{
+    display: grid;
+    grid-template-columns: 200%px;
+    align-items: center;
+    justify-content: center;
+    h3{
+        margin-top: 10%;
+        font-size: 30pt;
+    }
+    
+
+.container{
+
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+    .formTarefa{
+        
+        background-color: #8D8D8D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        height: 300px;
+
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+
+    }
+
+    button{
+
+        font-size: 15px;
+        border: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        background-color: #C4C4C4;
+        border-radius: 10px;
+        width: 60%;
+        height: 50px;
+        margin: 10px;
+
+    }
+
+    input{
+        font-size: 15px;
+        border: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        background-color: #C4C4C4;
+        border-radius: 10px;
+        width: 80%;
+        height: 50px;
+        margin: 10px;
+    }
+    }  
+}
+
+
+
+.container2{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 20px;
+
+    
+    .tarefasCad{
+        margin-top: 30px;
+        background-color: #8D8D8D;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        max-width: 1100px;
+        width: 100%;
+        height: 80px;  
+        border: none;
+        border-radius: 20px;
+        padding: 10px;  
+
+   
+    }
+    #titulo{
+        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    #data{
+        margin-left: 40px;
+        max-width: 150px;
+    }
+    #dell{
+        height: 25px;
+        border-radius: 15px;
+        border:none;
+        outline: none;
+        background-color: rgb(228, 88, 78);
+        
+        color: black;
+        font-weight: bold; 
+        position: absolute;
+    }
+    #dell:hover{
+        background-color: rgb(184, 36, 25);
+    }
+
+    button{
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        border:none;
+        outline: none;
+        background-color: rgb(113, 185, 113);
+        
+        color: black;
+        font-weight: bold; 
+        position: absolute;
+    }
+    button:hover{
+        background-color: green;
+    }
+
+
+}  
